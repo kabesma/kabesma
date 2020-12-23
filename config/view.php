@@ -14,7 +14,8 @@ return [
     */
 
     'paths' => [
-        resource_path('views/cms'),
+        resource_path('views'),
+        themes_path('default')
     ],
 
     /*
