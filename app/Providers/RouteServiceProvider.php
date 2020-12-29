@@ -49,7 +49,7 @@ class RouteServiceProvider extends ServiceProvider
 
             Route::middleware('web')
                 ->namespace($this->namespace)
-                ->group(themes_path('default/routes/front.php'));
+                ->group(themes_route_path('default'));
         });
     }
 

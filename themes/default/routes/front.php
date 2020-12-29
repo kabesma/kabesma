@@ -13,6 +13,6 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/theme', function () {
-    return "Selamat Datang di welcome";
+Route::get('/', function () {
+    return view('index');
 });
