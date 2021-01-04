@@ -28,6 +28,10 @@ Route::prefix('admin')->group(function () {
             return view('pages.typography');
         })->name('typography');
 
+        Route::get('icons-two', function () {
+            return view('pages.icons-two');
+        })->name('icons');
+
         Route::get('icons', function () {
             return view('pages.icons');
         })->name('icons');
@@ -39,10 +43,6 @@ Route::prefix('admin')->group(function () {
         Route::get('notifications', function () {
             return view('pages.notifications');
         })->name('notifications');
-
-        Route::get('rtl-support', function () {
-            return view('pages.language');
-        })->name('language');
 
         Route::get('upgrade', function () {
             return view('pages.upgrade');

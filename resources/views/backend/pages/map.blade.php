@@ -1,4 +1,4 @@
-@extends('layouts.app', ['activePage' => 'map', 'titlePage' => __('Map')])
+@extends('backend.base.index', ['activePage' => 'map', 'titlePage' => __('Map')])
 
 @section('content')
 <div id="map"></div>

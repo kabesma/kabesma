@@ -12,7 +12,7 @@ return [
     |
      */
 
-    'view' => 'views/cms',
+    'view' => 'views/backend',
 
     'backend' => '',
 
