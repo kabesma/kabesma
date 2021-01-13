@@ -1,2 +1,2 @@
-@include('partials.head')
-@include('partials.style')
+@include('header.head')
+@include('header.style')

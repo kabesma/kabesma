@@ -1,4 +1,4 @@
-@extends('backend.base.index', ['activePage' => 'dashboard', 'titlePage' => __('Dashboard')])
+@extends('base.index', ['activePage' => 'dashboard', 'titlePage' => __('Dashboard')])
 
 @section('content')
   <div class="content">

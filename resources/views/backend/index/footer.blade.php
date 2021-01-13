@@ -1,1 +1,1 @@
-@include('partials.js')
+@include('footer.js')

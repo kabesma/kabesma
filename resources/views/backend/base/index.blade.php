@@ -1,9 +1,8 @@
 <!DOCTYPE html>
 <html lang="{{ str_replace('_','-', app()->getLocale()) }}">
-@include('backend.index.header')
+@include('index.header')
 <body class="{{ $class ?? ''  }}">
-@include('backend.index.content')
-
-@include('backend.index.footer')
+@include('index.content')
+@include('index.footer')
 </body>
 </html>

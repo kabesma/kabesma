@@ -29,7 +29,7 @@
                         <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about">About</a></li>
                         <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#projects">Projects</a></li>
                         <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#signup">Contact</a></li>
-                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="{{ url('/admin/login')  }}">Login</a></li>
+                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="{{ url(Config('kabesma.url.admin').'/login')  }}">Login</a></li>
                     </ul>
                 </div> 
             </div> 

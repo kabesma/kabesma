@@ -1,9 +1,9 @@
 @auth()
-    @include('auth.logout')
-    @include('templates.auth')
-    @include('plugin.sidebar')
+    @include('content.logout')
+    @include('content.main')
+    @include('content.sidebar')
 @endauth
 @guest()
-    @include('templates.guest')
+    @include('content.guest')
 @endguest
 

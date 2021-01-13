@@ -1,4 +1,4 @@
-@extends('backend.base.index', ['activePage' => 'notifications', 'titlePage' => __('Notifications')])
+@extends('base.index', ['activePage' => 'notifications', 'titlePage' => __('Notifications')])
 
 @section('content')
 <div class="content">
