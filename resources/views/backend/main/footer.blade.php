@@ -29,7 +29,7 @@
       <script>
         document.write(new Date().getFullYear())
       </script>, made with <i class="material-icons">favorite</i> by
-      <a href="https://www.creative-tim.com" target="_blank">Creative Tim</a> and <a href="https://www.updivision.com" target="_blank">UPDIVISION</a> for a better web.
+      <a href="https://akil.co.id" target="_blank">Akil</a> and <a href="https://dcc-dp.id" target="_blank">DCC</a> for a better web.
     </div>
   </div>
 </footer>
