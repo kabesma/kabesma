@@ -6,14 +6,14 @@
         <meta name="description" content="" />
         <meta name="author" content="" />    
         <title>Kabesma Theme</title>    
-        <link rel="icon" type="image/x-icon" href="{{ asset('theme/default') }}/assets/img/favicon.ico" />
+        <link rel="icon" type="image/x-icon" href="{{ asset('themes/default') }}/assets/img/favicon.ico" />
         <!-- Font Awesome icons (free version)-->
         <script src="https://use.fontawesome.com/releases/v5.15.1/js/all.js" crossorigin="anonymous"></script>
         <!-- Google fonts-->
         <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet" />
         <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet" />
         <!-- Core theme CSS (includes Bootstrap)--> 
-        <link href="{{ asset('theme/default') }}/css/styles.css" rel="stylesheet" /> 
+        <link href="{{ asset('themes/default') }}/css/styles.css" rel="stylesheet" /> 
     </head> 
     <body id="page-top"> 
         <!-- Navigation-->
@@ -57,7 +57,7 @@
                         </p>
                     </div>
                 </div>
-                <img class="img-fluid" src="{{ asset('theme/default') }}/assets/img/ipad.png" alt="" />
+                <img class="img-fluid" src="{{ asset('themes/default') }}/assets/img/ipad.png" alt="" />
             </div>
         </section>
         <!-- Projects-->
@@ -65,7 +65,7 @@
             <div class="container">
                 <!-- Featured Project Row-->
                 <div class="row align-items-center no-gutters mb-4 mb-lg-5">
-                    <div class="col-xl-8 col-lg-7"><img class="img-fluid mb-3 mb-lg-0" src="{{ asset('theme/default') }}/assets/img/bg-masthead.jpg" alt="" /></div>
+                    <div class="col-xl-8 col-lg-7"><img class="img-fluid mb-3 mb-lg-0" src="{{ asset('themes/default') }}/assets/img/bg-masthead.jpg" alt="" /></div>
                     <div class="col-xl-4 col-lg-5">
                         <div class="featured-text text-center text-lg-left">
                             <h4>Shoreline</h4>
@@ -75,7 +75,7 @@
                 </div>
                 <!-- Project One Row-->
                 <div class="row justify-content-center no-gutters mb-5 mb-lg-0">
-                    <div class="col-lg-6"><img class="img-fluid" src="{{ asset('theme/default') }}/assets/img/demo-image-01.jpg" alt="" /></div>
+                    <div class="col-lg-6"><img class="img-fluid" src="{{ asset('themes/default') }}/assets/img/demo-image-01.jpg" alt="" /></div>
                     <div class="col-lg-6">
                         <div class="bg-black text-center h-100 project">
                             <div class="d-flex h-100">
@@ -90,7 +90,7 @@
                 </div>
                 <!-- Project Two Row-->
                 <div class="row justify-content-center no-gutters">
-                    <div class="col-lg-6"><img class="img-fluid" src="{{ asset('theme/default') }}/assets/img/demo-image-02.jpg" alt="" /></div>
+                    <div class="col-lg-6"><img class="img-fluid" src="{{ asset('themes/default') }}/assets/img/demo-image-02.jpg" alt="" /></div>
                     <div class="col-lg-6 order-lg-first">
                         <div class="bg-black text-center h-100 project">
                             <div class="d-flex h-100">
@@ -170,6 +170,6 @@
         <!-- Third party plugin JS-->
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
         <!-- Core theme JS-->
-        <script src="{{ asset('theme/default') }}/js/scripts.js"></script>
+        <script src="{{ asset('themes/default') }}/js/scripts.js"></script>
     </body>
 </html>

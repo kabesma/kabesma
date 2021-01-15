@@ -16,7 +16,7 @@ return [
     'paths' => [
         resource_path('views'),
         resource_path(config('kabesma.view')),
-        themes_path()
+        themes_path('default')
     ],
 
     /*
