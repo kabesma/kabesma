@@ -29,6 +29,7 @@
                   <th>
                     Salary
                   </th>
+                  <th>Action</th>
                 </thead>
                 <tbody>
                   <tr>
@@ -47,6 +48,7 @@
                     <td class="text-primary">
                       $36,738
                     </td>
+                    <th><button class="btn btn-primary">view</button></th>
                   </tr>
                   <tr>
                     <td>
@@ -64,6 +66,7 @@
                     <td class="text-primary">
                       $23,789
                     </td>
+                    <th>Action</th>
                   </tr>
                   <tr>
                     <td>
@@ -81,6 +84,7 @@
                     <td class="text-primary">
                       $56,142
                     </td>
+                    <th>Action</th>
                   </tr>
                   <tr>
                     <td>
@@ -98,6 +102,7 @@
                     <td class="text-primary">
                       $38,735
                     </td>
+                    <th>Action</th>
                   </tr>
                   <tr>
                     <td>
@@ -115,6 +120,7 @@
                     <td class="text-primary">
                       $63,542
                     </td>
+                    <th>Action</th>
                   </tr>
                   <tr>
                     <td>
@@ -132,6 +138,7 @@
                     <td class="text-primary">
                       $78,615
                     </td>
+                    <th>Action</th>
                   </tr>
                 </tbody>
               </table>

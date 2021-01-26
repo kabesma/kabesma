@@ -1,5 +1,5 @@
 <div class="wrapper ">
-  @include('main.sidebar')
+  @include('main.menu')
   <div class="main-panel">
     @include('main.navbar')
     @yield('content')

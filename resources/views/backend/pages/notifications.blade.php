@@ -114,7 +114,7 @@
                   <button class="btn btn-primary btn-block" onclick="md.showNotification('bottom','center')">Bottom Center</button>
                 </div>
                 <div class="col-md-4">
-                  <button class="btn btn-primary btn-block" onclick="md.showNotification('bottom','right')">Bottom Right</button>
+                  <button class="btn btn-primary btn-block" onclick="showNotification('bottom','right')">Bottom Right</button>
                 </div>
               </div>
             </div>
@@ -125,3 +125,21 @@
   </div>
 </div>
 @endsection
+
+@push('js')
+<script>
+function showNotification(from, align){
+  $.notify({
+      icon: "add_alert",
+      message: "Welcome to <b>Kabesma Dashboard</b> - a beautiful freebie for every web developer."
+  },{
+      type: 'success',
+      timer: 4000,
+      placement: {
+          from: from,
+          align: align
+      }
+  });
+}
+</script>
+@endpush
