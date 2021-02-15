@@ -48,7 +48,14 @@
                     <td class="text-primary">
                       $36,738
                     </td>
-                    <th><button class="btn btn-primary">view</button></th>
+                    <th>
+                        <button type="button" rel="tooltip" title="Edit" class="btn btn-primary btn-link btn-sm">
+                            <i class="material-icons">edit</i>
+                        </button>
+                        <button type="button" rel="tooltip" title="Remove" class="btn btn-danger btn-link btn-sm">
+                            <i class="material-icons">close</i>
+                        </button>
+                    </th>
                   </tr>
                   <tr>
                     <td>
@@ -66,7 +73,14 @@
                     <td class="text-primary">
                       $23,789
                     </td>
-                    <th>Action</th>
+                    <th>
+                        <button type="button" rel="tooltip" title="Edit" class="btn btn-primary btn-link btn-sm">
+                            <i class="material-icons">edit</i>
+                        </button>
+                        <button type="button" rel="tooltip" title="Remove" class="btn btn-danger btn-link btn-sm">
+                            <i class="material-icons">close</i>
+                        </button>
+                    </th>
                   </tr>
                   <tr>
                     <td>
@@ -84,7 +98,14 @@
                     <td class="text-primary">
                       $56,142
                     </td>
-                    <th>Action</th>
+                    <th>
+                        <button type="button" rel="tooltip" title="Edit" class="btn btn-primary btn-link btn-sm">
+                            <i class="material-icons">edit</i>
+                        </button>
+                        <button type="button" rel="tooltip" title="Remove" class="btn btn-danger btn-link btn-sm">
+                            <i class="material-icons">close</i>
+                        </button>
+                    </th>
                   </tr>
                   <tr>
                     <td>
@@ -102,7 +123,14 @@
                     <td class="text-primary">
                       $38,735
                     </td>
-                    <th>Action</th>
+                    <th>
+                        <button type="button" rel="tooltip" title="Edit" class="btn btn-primary btn-link btn-sm">
+                            <i class="material-icons">edit</i>
+                        </button>
+                        <button type="button" rel="tooltip" title="Remove" class="btn btn-danger btn-link btn-sm">
+                            <i class="material-icons">close</i>
+                        </button>
+                    </th>
                   </tr>
                   <tr>
                     <td>
@@ -120,7 +148,14 @@
                     <td class="text-primary">
                       $63,542
                     </td>
-                    <th>Action</th>
+                    <th>
+                        <button type="button" rel="tooltip" title="Edit" class="btn btn-primary btn-link btn-sm">
+                            <i class="material-icons">edit</i>
+                        </button>
+                        <button type="button" rel="tooltip" title="Remove" class="btn btn-danger btn-link btn-sm">
+                            <i class="material-icons">close</i>
+                        </button>
+                    </th>
                   </tr>
                   <tr>
                     <td>
@@ -138,7 +173,14 @@
                     <td class="text-primary">
                       $78,615
                     </td>
-                    <th>Action</th>
+                    <th>
+                        <button type="button" rel="tooltip" title="Edit" class="btn btn-primary btn-link btn-sm">
+                            <i class="material-icons">edit</i>
+                        </button>
+                        <button type="button" rel="tooltip" title="Remove" class="btn btn-danger btn-link btn-sm">
+                            <i class="material-icons">close</i>
+                        </button>
+                    </th>
                   </tr>
                 </tbody>
               </table>
